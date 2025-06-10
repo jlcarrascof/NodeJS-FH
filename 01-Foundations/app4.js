@@ -9,7 +9,7 @@ setTimeout( () => {
 
 setTimeout( () => {
     console.log('Second Timeout');
-}, 100 );
+}, 1 );
 
 
 setTimeout( () => {
