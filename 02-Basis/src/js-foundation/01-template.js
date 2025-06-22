@@ -7,3 +7,7 @@ const emailTemplate = `
     <p>Thank you for your order.</p>
 
 </div>`;
+
+module.exports = {
+    emailTemplate
+}
