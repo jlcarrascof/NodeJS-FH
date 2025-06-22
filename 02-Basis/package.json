@@ -9,5 +9,8 @@
     "dev": "echo Hello World from dev!"
   },
   "author": "Javier J. Martínez F.",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
