@@ -1,2 +1,4 @@
 
-console.log('Hello world from app.js');
+require ('./js-foundation/01-template');
+
+console.log(emailTemplate);
