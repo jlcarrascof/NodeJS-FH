@@ -7,7 +7,7 @@ const id = 3;
 
 getUserById(id, function( error, user) {
     if (error) {
-        throw new Error('User not found with id: ',  id);
+        throw new Error( error );
     }
 
     console.log('User found: ', user);

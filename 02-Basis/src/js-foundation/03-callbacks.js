@@ -16,7 +16,7 @@ function getUserById( id, callback ) {
     });
 
     if (!user) {
-        return callback(`User not found with id: ${id}`);
+        return callback(`USER not found: ${id}`);
     }
 
     return callback(null, user);
