@@ -3,6 +3,12 @@
 // require('./js-foundation/02-destructuring');
 const { getUserById } = require('./js-foundation/03-callbacks');
 
-getUserById(1);
+const id = 3;
 
-// console.log(emailTemplate);
+getUserById(id, function( error, user) {
+    if (error) {
+        throw new Error('User not found with id: ',  id);
+    }
+
+    console.log('User found: ', user);
+});
