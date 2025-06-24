@@ -10,11 +10,5 @@ getUserById(id, function( error, user) {
         throw new Error( error );
     }
 
-    getUserById (2, function( error, user2) {
-        if (error) {
-            throw new Error( error );
-        }
-
-        console.log( {user, user2} );
-    });
+    console.log( user );
 });
