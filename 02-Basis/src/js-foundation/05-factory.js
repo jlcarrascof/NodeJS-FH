@@ -1,5 +1,4 @@
-const { getUUID } = require('../plugins/get-id.plugins');
-const { getAge } = require('../plugins/get-age.plugin');
+
 
 const buildPerson = ( { name, birthdate } ) => {
     return {
