@@ -13,11 +13,10 @@ const users = [
 const getUserById = ( id, callback ) => {
     const user = users.find( ( user ) => user.id === id );
 
-    if (!user) {
-        return callback(`USER not found: ${id}`);
-    }
+    ( user) ?
+      callback(null, user) :
+      callback(`USER not found: ${id}`);
 
-    return callback(null, user);
 }
 
 
