@@ -1,4 +1,4 @@
-const { getUUID, getAge } = require('../plugins');
+// const { getUUID, getAge } = require('../plugins');
 
 const buildMakePerson = ({ getUUID, getAge }) => {
 
