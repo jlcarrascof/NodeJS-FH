@@ -1,6 +1,6 @@
 const { getUUID, getAge } = require('../plugins');
 
-const buildMakePerson = () => {
+const buildMakePerson = ({ getUUID, getAge }) => {
 
     return ( { name, birthdate } ) => {
         return {
@@ -13,9 +13,6 @@ const buildMakePerson = () => {
 
 }
 
-
-
-// const obj = { name: 'Javier', birthdate: '1968-03-09' };
 // const john = buildPerson( obj );
 
 // console.log( john );
