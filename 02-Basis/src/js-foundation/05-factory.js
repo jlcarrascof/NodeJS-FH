@@ -9,6 +9,11 @@ const buildPerson = ( { name, birthdate } ) => {
     };
 }
 
-const obj = { name: 'Javier', birthdate: '1968-03-09' };
-const john = buildPerson( obj );
-console.log( john );
+// const obj = { name: 'Javier', birthdate: '1968-03-09' };
+// const john = buildPerson( obj );
+
+// console.log( john );
+
+module.exports = {
+    buildPerson,
+}
