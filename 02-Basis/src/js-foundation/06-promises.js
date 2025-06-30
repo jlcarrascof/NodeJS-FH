@@ -1,13 +1,11 @@
 
 
-const getPokemonById = ( id, callback ) => {
+const getPokemonById = ( id ) => {
     const url = `https://pokeapi.co/api/v2/pokemon/${ id }`;
 
-    fetch( url )
+    return fetch( url )
         .then( ( resp ) => resp.json())
-        .then( ( pokemon ) => {
-            callback( pokemon.name );
-        });
+        .then( ( pokemon ) => pokemon.name );
 
     // fetch( url ).then( ( response ) => {
     //     response.json().then( ( pokemon ) => {
