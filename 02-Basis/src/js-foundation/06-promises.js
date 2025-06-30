@@ -5,7 +5,9 @@ const getPokemonById = ( id ) => {
 
     fetch( url ).then( ( response ) => {
         response.json().then( ( pokemon ) => {
-            console.log( pokemon.name );
+            // console.log( pokemon.name );
+
+            return pokemon.name;
         });
     });
 

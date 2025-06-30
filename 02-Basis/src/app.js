@@ -6,7 +6,8 @@ const { getUUID, getAge } = require('./plugins');
 const getPokemonById = require('./js-foundation/06-promises');
 
 
-getPokemonById( 4 );
+const name = getPokemonById( 4 );
+console.log( { name } );
 
 
 // ! Reference to Factory Pattern
