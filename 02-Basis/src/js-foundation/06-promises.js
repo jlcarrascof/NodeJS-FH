@@ -5,6 +5,8 @@ const getPokemonById = async ( id ) => {
     const resp = await fetch( url );
     const pokemon = await resp.json();
 
+    throw new Error('Pokemon not found');
+
     return pokemon.name;
 
     // return fetch( url )
