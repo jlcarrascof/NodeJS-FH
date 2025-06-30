@@ -5,6 +5,7 @@ const { getUUID, getAge } = require('./plugins');
 // const { getUserById } = require('./js-foundation/04-arrow');
 const getPokemonById = require('./js-foundation/06-promises');
 
+
 console.log(getPokemonById(1));
 
 

@@ -1,8 +1,14 @@
 
 
 const getPokemonById = ( id ) => {
+    const url = `https://pokeapi.co/api/v2/pokemon/${ id }`;
 
-    return 'Pokemon';
+    fetch( url ).then( ( response ) => {
+        console.log( response );
+    });
+
+
+    // return 'Pokemon';
 }
 
 
