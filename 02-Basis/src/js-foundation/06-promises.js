@@ -5,6 +5,7 @@ const getPokemonById = ( id ) => {
 
     return fetch( url )
         .then( ( resp ) => resp.json())
+        .then( () => { throw new Error('Pokemon not found'); })
         .then( ( pokemon ) => pokemon.name );
 
     // fetch( url ).then( ( response ) => {

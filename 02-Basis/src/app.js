@@ -8,6 +8,7 @@ const getPokemonById = require('./js-foundation/06-promises');
 
 getPokemonById(4)
     .then( (pokemon) => console.log( { pokemon } ) )
+    .catch( (error) => console.error( { error } ) );
 
 
 // ! Reference to Factory Pattern
