@@ -1,7 +1,11 @@
 
 
-const getPokemonById = ( id ) => {
-    // const url = `https://pokeapi.co/api/v2/pokemon/${ id }`;
+const getPokemonById = async ( id ) => {
+    const url = `https://pokeapi.co/api/v2/pokemon/${ id }`;
+    const resp = await fetch( url );
+    const pokemon = await resp.json();
+
+    return pokemon.name;
 
     // return fetch( url )
     //     .then( ( resp ) => resp.json())
