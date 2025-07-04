@@ -17,3 +17,12 @@ const logger = winston.createLogger({
     new winston.transports.File({ filename: 'combined.log' }),
   ],
 });
+
+module.exports = function buildLogger(service) {
+
+    return {
+        log: (message) => {
+            logger.log('info', message,  service );
+        },
+    }
+}
