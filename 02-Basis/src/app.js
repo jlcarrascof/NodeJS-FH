@@ -3,13 +3,17 @@ const { getUUID, getAge } = require('./plugins');
 // require('./js-foundation/02-destructuring');
 // const { getUserById } = require('./js-foundation/03-callbacks');
 // const { getUserById } = require('./js-foundation/04-arrow');
-const getPokemonById = require('./js-foundation/06-promises');
+// const getPokemonById = require('./js-foundation/06-promises');
+const { buildLogger } = require('./plugins');
 
+const logger = buildLogger('app.js');
 
-getPokemonById(4)
-    .then( (pokemon) => console.log( { pokemon } ) )
-    .catch( (error) => console.log( 'Please, try again' ) )
-    .finally( () => console.log( 'End of the process' ) );
+logger.log('Application started');
+
+// getPokemonById(4)
+//     .then( (pokemon) => console.log( { pokemon } ) )
+//     .catch( (error) => console.log( 'Please, try again' ) )
+//     .finally( () => console.log( 'End of the process' ) );
 
 
 // ! Reference to Factory Pattern
