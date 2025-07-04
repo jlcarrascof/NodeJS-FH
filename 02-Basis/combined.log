@@ -1,3 +1,8 @@
 {"level":"info","message":"Application started","service":"user-service"}
 {"level":"info","message":"Application started"}
 {"level":"info","message":"Application started"}
+{"level":"info","message":"Application started"}
+{"level":"info","message":"Application started","service":"app.js"}
+{"level":"info"}
+{"level":"info","message":"Application started","service":"app.js"}
+{"level":"info","message":"Application started","service":"app.js"}

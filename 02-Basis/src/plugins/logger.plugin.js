@@ -22,7 +22,7 @@ module.exports = function buildLogger(service) {
 
     return {
         log: (message) => {
-            logger.log('info', message,  service );
+            logger.log('info',{ message, service } );
         },
     }
 }
