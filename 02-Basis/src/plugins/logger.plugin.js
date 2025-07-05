@@ -29,7 +29,11 @@ module.exports = function buildLogger(service) {
             logger.log('info',{ message, service } );
         },
         error: (message) => {
-            logger.error('error', { message, service } );
+            logger.error('error', {
+            message,
+            service,
+            at: new Date().toISOString(),
+          } );
         },
     }
 }
