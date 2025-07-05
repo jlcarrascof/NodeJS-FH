@@ -28,5 +28,8 @@ module.exports = function buildLogger(service) {
         log: (message) => {
             logger.log('info',{ message, service } );
         },
+        error: (message) => {
+            logger.error('error', { message, service } );
+        },
     }
 }
