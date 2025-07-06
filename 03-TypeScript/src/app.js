@@ -19,3 +19,7 @@ const heroes = [
 const findHeroById = ( id ) => {
     return heroes.find( ( hero ) => hero.id === id);
 };
+
+const hero = findHeroById( 2 );
+
+console.log( hero );
