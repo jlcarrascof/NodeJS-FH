@@ -15,3 +15,7 @@ const heroes = [
         owner: 'DC',
     },
 ];
+
+const findHeroById = ( id ) => {
+    return heroes.find( ( hero ) => hero.id === id);
+};
