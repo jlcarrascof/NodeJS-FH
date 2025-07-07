@@ -22,4 +22,4 @@ const findHeroById = ( id: number ) => {
 
 const hero = findHeroById( 4 );
 
-console.log( hero.name );
+console.log( hero?.name ?? 'Hero not found' );
