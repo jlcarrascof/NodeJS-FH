@@ -4,5 +4,5 @@ import { buildLogger } from './plugins/logger.plugin';
 
 const logger = buildLogger('app.js');
 
-// logger.log('Application started');
-// logger.error('An error occurred');
+logger.log('Application started');
+logger.error('An error occurred');
