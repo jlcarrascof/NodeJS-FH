@@ -102,3 +102,5 @@
 {"at":"2025-07-17T01:51:16.587Z","level":"error","message":"error An error occurred","service":"app.js","timestamp":"2025-07-17T01:51:16.587Z"}
 {"level":"info","message":"Application started","service":"app.js","timestamp":"2025-07-17T01:51:34.495Z"}
 {"at":"2025-07-17T01:51:34.501Z","level":"error","message":"error An error occurred","service":"app.js","timestamp":"2025-07-17T01:51:34.501Z"}
+{"level":"info","message":"Application started","service":"app.js","timestamp":"2025-07-17T01:52:25.387Z"}
+{"at":"2025-07-17T01:52:25.394Z","level":"error","message":"error An error occurred","service":"app.js","timestamp":"2025-07-17T01:52:25.394Z"}
