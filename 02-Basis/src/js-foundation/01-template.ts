@@ -1,6 +1,6 @@
 
 
-const emailTemplate = `
+export const emailTemplate = `
 <div>
 
     <h1>Hi, {{ name }}</h1>
@@ -8,7 +8,3 @@ const emailTemplate = `
     <p>Order #{{ orderId }}</p>
 
 </div>`;
-
-module.exports = {
-    emailTemplate
-}

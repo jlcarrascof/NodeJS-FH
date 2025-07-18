@@ -65,3 +65,5 @@
 {"at":"2025-07-18T22:13:14.737Z","level":"error","message":"error An error occurred","service":"app.js","timestamp":"2025-07-18T22:13:14.737Z"}
 {"at":"2025-07-18T22:14:04.129Z","level":"error","message":"error An error occurred","service":"app.js","timestamp":"2025-07-18T22:14:04.130Z"}
 {"at":"2025-07-18T22:17:20.974Z","level":"error","message":"error An error occurred","service":"app.js","timestamp":"2025-07-18T22:17:20.974Z"}
+{"at":"2025-07-18T22:52:33.486Z","level":"error","message":"error An error occurred","service":"app.js","timestamp":"2025-07-18T22:52:33.486Z"}
+{"at":"2025-07-18T22:53:08.707Z","level":"error","message":"error An error occurred","service":"app.js","timestamp":"2025-07-18T22:53:08.707Z"}
